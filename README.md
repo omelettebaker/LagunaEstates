@@ -5,6 +5,7 @@
 
 ## Features
 - Layout variant for landscape mode
+- Localization of strings, dimensions, colors, and styles into resource files
 - Use of 4 different intent types for phone call, displaying location on map, opening website, sending email
 
 ## Screenshots
