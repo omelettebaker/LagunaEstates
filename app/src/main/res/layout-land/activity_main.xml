@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:src="@drawable/homer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:adjustViewBounds="true"/>
+
+
+    <TextView
+        style="@style/title_landscape"
+        android:id="@+id/name"
+        android:text="@string/name" />
+
+    <LinearLayout
+        android:id="@+id/info"
+        style="@style/body_layout_landscape"
+        android:layout_below="@id/name">
+
+        <TextView
+            style="@style/info"
+            android:text="@string/phone_number"
+            android:drawableLeft="@drawable/phone_icon"
+            android:drawableStart="@drawable/phone_icon"
+            android:onClick="dialNumber"/>
+
+        <TextView
+            style="@style/info"
+            android:text="@string/address"
+            android:drawableLeft="@drawable/location_icon"
+            android:drawableStart="@drawable/location_icon"
+            android:onClick="getMap" />
+
+        <TextView
+            style="@style/info"
+            android:drawableLeft="@drawable/http_icon"
+            android:drawableStart="@drawable/http_icon"
+            android:onClick="webClick"
+            android:text="@string/web_address" />
+
+        <TextView
+            style="@style/info"
+            android:drawableLeft="@drawable/email_icon"
+            android:drawableStart="@drawable/email_icon"
+            android:onClick="emailClick"
+            android:text="@string/email_us" />
+    </LinearLayout>
+
+</RelativeLayout>

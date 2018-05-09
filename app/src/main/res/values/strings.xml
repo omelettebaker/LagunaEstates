@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LagunaEstates</string>
+    <string name="name">Laguna Estates\nCommunity Association</string>
+    <string name="phone_number">(916) 985&#8211;3633</string>
+    <string name="tel_number">tel:19169853633</string>
+    <string name="web_address">www.lagunaestates.org</string>
+    <string name="web_url">http://lagunaestates.org</string>
+    <string name="address">Elk Grove, CA</string>
+    <string name="address_url">geo:38.405620, -121.446108</string>
+    <string name="email_address">mailto:Lori.storm@managementtrust.com</string>
+    <string name="email_us">Email us</string>
+</resources>

@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="body_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/bottom_margin</item>
+        <item name="android:paddingLeft">@dimen/body_padding_left</item>
+        <item name="android:paddingRight">@dimen/body_padding_right</item>
+        <item name="android:drawablePadding">@dimen/icon_padding</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/body_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="body_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="title_portrait">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/title_portrait_bottom_margin</item>
+        <item name="android:layout_marginTop">@dimen/title_portrait_top_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="info">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/info_margin_bottom</item>
+        <item name="android:gravity">start</item>
+        <item name="android:drawablePadding">@dimen/drawable_padding</item>
+        <item name="android:paddingLeft">@dimen/info_padding_left</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/info_text_size</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="body_layout_landscape" parent="body_layout">
+        <item name="android:layout_toRightOf">@id/image</item>
+    </style>
+
+    <style name="title_landscape">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toRightOf">@id/image</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/title_landscape_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/title_landscape_margin_bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
